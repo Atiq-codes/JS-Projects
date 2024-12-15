@@ -1,0 +1,23 @@
+#Counter{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#BtnContainer{
+    text-align: center;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 5em;
+    color: hsl(0, 0%, 100%);
+    background-color: hsla(223, 100%, 50%, 0.571);
+    border-radius: 5px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgba(0, 85, 255, 0.821);
+}
